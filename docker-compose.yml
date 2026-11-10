@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  kafka:
+    image: apache/kafka:4.4.0
+    container_name: workshop3-kafka
+    ports:
+      - "9092:9092"
+
+  postgres:
+    image: postgres:15
+    container_name: workshop3-postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres_password}
+      POSTGRES_DB: ${POSTGRES_DB:-postgres}
+    ports:
+      - "5433:5432"
+    volumes:
+    - ./sql/init_schema.sql:/docker-entrypoint-initdb.d/init_schema.sql
