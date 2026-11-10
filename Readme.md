@@ -298,27 +298,27 @@ Before deploying the model, the main assumptions of linear regression were valid
 
 **Linearity**: scatter plots of each explanatory variable against the happiness score.
 <br>
-<img src="notebooks/evidencias/Grafico de dispersion de las variables.png" alt="Scatter plots of the variables" width="100%">
+<img src="noteboooks\evidencias\Grafico de dispersion de las variables.png" alt="Scatter plots of the variables" width="100%">
 <br><br>
 
 **Model fit**: regression fit.
 <br>
-<img src="notebooks/evidencias/Modelo de regresion.png" alt="Regression model" width="100%">
+<img src="noteboooks\evidencias\Modelo de regresion.png" alt="Regression model" width="100%">
 <br><br>
 
 **Normality of errors**: Q-Q plot and histogram of the residuals.
 <br>
-<img src="notebooks/evidencias/Prueba de normalidad.png" alt="Normality test" width="100%">
+<img src="noteboooks\evidencias\Prueba de normalidad.png" alt="Normality test" width="100%">
 <br><br>
 
 **Homoscedasticity**: constant variance of the residuals.
 <br>
-<img src="notebooks/evidencias/Prueba homocedastica.png" alt="Homoscedasticity test" width="100%">
+<img src="noteboooks\evidencias\Prueba homocedastica.png" alt="Homoscedasticity test" width="100%">
 <br><br>
 
 **Independence of errors**: correlation of the residuals.
 <br>
-<img src="notebooks/evidencias/Prueba de correlacion de los errores.png" alt="Error correlation test" width="100%">
+<img src="noteboooks\evidencias\Prueba de correlacion de los errores.png" alt="Error correlation test" width="100%">
 
 ---
 
